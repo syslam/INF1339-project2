@@ -2,16 +2,19 @@
 <head>
 <title>Sharon INF1339 Project 2</title>
 <style>
-  .test_class {
-    font: 15px arial, sans-serif;
-    color: lightseagreen}
+    .test_class {
+        font: 15px arial, sans-serif;
+        color: lightseagreen}
 </style>
 <script>
-
+    function hello() {
+        document.getElementById("sentinel").innerHTML="HELLO"
+    }
 </script>
-<head>
+</head>
 <body>
 <h3>API Project Iteration 0</h3>
+<button type="button" onclick="hello()">Greet Me!</button>
 <p id="sentinel" class="test_class"></p>
 </body>
 </html>
